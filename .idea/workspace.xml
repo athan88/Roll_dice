@@ -12,6 +12,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/untitled2$test.coverage" NAME="test Coverage Results" MODIFIED="1486288040532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/untitled2" />
     <SUITE FILE_PATH="coverage/untitled2$Main.coverage" NAME="Main Coverage Results" MODIFIED="1486297182220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/untitled2" />
+    <SUITE FILE_PATH="coverage/Roll_Dice$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1486298790975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/Roll_dice" />
     <SUITE FILE_PATH="coverage/untitled2$pyglet_test.coverage" NAME="pyglet_test Coverage Results" MODIFIED="1486296957521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/untitled2" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -20,11 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Functions.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Functions.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/PycharmProjects/Roll_dice/Functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -40,13 +41,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/PycharmProjects/Roll_dice/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="506">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <element signature="e#13#27#0" expanded="true" />
+                <element signature="e#13#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,6 +70,8 @@
         <option value="$USER_HOME$/PycharmProjects/untitled2/Functions.py" />
         <option value="$USER_HOME$/PycharmProjects/untitled2/Classes.py" />
         <option value="$USER_HOME$/PycharmProjects/untitled2/Main.py" />
+        <option value="$USER_HOME$/PycharmProjects/Roll_dice/Functions.py" />
+        <option value="$USER_HOME$/PycharmProjects/Roll_dice/Main.py" />
       </list>
     </option>
   </component>
@@ -128,7 +131,7 @@
       <recent name="C:\Users\Nathan\PycharmProjects\untitled2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python.Main (1)">
     <configuration default="false" name="pyglet_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,6 +182,24 @@
       <module name="untitled2" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/untitled2/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/Roll_dice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Roll_Dice" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/Roll_dice/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -397,16 +418,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.pyglet_test" />
       <item index="1" class="java.lang.String" itemvalue="Python.test" />
       <item index="2" class="java.lang.String" itemvalue="Python.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Main (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pyglet_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.Main (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pyglet_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -425,9 +448,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1456" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -455,7 +478,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -476,6 +499,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Roll_dice/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/Roll_dice/Classes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -486,19 +519,9 @@
     </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/Roll_dice/Functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/Roll_dice/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
