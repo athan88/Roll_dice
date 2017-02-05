@@ -1,5 +1,6 @@
 from Classes import Die
 
+
 #
 # functions
 #
@@ -19,11 +20,37 @@ def create_dice(dice_amount, sides, value):
     return dice_list
 
 
-# roll_dice returns the total amount of dice rolled, and if a crit was rolled, needs dictionary of dice
+# roll_dice returns the total amount of dice rolled, and if a crit was rolled
+# needs dictionary of dice and if perpetual is possible
 
+def roll_dice(list_of_dice, perpetual):
+    result = [False, 0]
 
+    # getting each die
+    for die in list_of_dice:
+        current_die = (list_of_dice[die])
 
+        # rolling the die
+        current_die.roll()
+        roll = current_die.value
+        result[1] += roll
 
+        # checking for crits, and rolling again
+        if perpetual:
+            while roll == current_die.sides:
+                print(current_die.value)
+                current_die.roll()
+
+                result[1] += current_die.value
+                result[0] = True
+
+                roll = current_die.value
+
+            print(roll)
+        else:
+            result[0] = True
+
+    return result
 
 
 

@@ -16,5 +16,5 @@ class Die:
         self.value = value
 
     def roll(self):
-        self.value = randint(1, self.sides + 1)
+        self.value = randint(1, self.sides)
 
